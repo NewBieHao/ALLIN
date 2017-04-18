@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181215D61EA0621A005DE9A3 /* MyNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181215D51EA0621A005DE9A3 /* MyNavigationViewController.swift */; };
+		181215D81EA06C17005DE9A3 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181215D71EA06C17005DE9A3 /* ProductViewController.swift */; };
+		181215DA1EA06C33005DE9A3 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181215D91EA06C33005DE9A3 /* CategoryViewController.swift */; };
+		182DCBC31EA5A2DD00D71A34 /* MineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DCBC21EA5A2DD00D71A34 /* MineTableViewCell.swift */; };
+		1854919C1EA4B88200F4D667 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854919B1EA4B88200F4D667 /* Const.swift */; };
 		185CCC761E9F142C00F3C7E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CCC751E9F142C00F3C7E4 /* AppDelegate.swift */; };
 		185CCC781E9F142C00F3C7E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CCC771E9F142C00F3C7E4 /* ViewController.swift */; };
 		185CCC7B1E9F142C00F3C7E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185CCC791E9F142C00F3C7E4 /* Main.storyboard */; };
 		185CCC7D1E9F142C00F3C7E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185CCC7C1E9F142C00F3C7E4 /* Assets.xcassets */; };
 		185CCC801E9F142C00F3C7E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185CCC7E1E9F142C00F3C7E4 /* LaunchScreen.storyboard */; };
+		185CCC891E9F155700F3C7E4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CCC881E9F155700F3C7E4 /* TabBarViewController.swift */; };
+		185CCC8C1E9F1FB600F3C7E4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CCC8B1E9F1FB600F3C7E4 /* BaseViewController.swift */; };
+		185CCC8E1E9F1FDC00F3C7E4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CCC8D1E9F1FDC00F3C7E4 /* HomeViewController.swift */; };
+		185CCC901E9F1FE800F3C7E4 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CCC8F1E9F1FE800F3C7E4 /* MineViewController.swift */; };
+		5E9E13D02F1336EB1BA67EAA /* Pods_ALLIN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1026F77A087CFB4802827746 /* Pods_ALLIN.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1026F77A087CFB4802827746 /* Pods_ALLIN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALLIN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		181215D51EA0621A005DE9A3 /* MyNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationViewController.swift; sourceTree = "<group>"; };
+		181215D71EA06C17005DE9A3 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		181215D91EA06C33005DE9A3 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		182DCBC21EA5A2DD00D71A34 /* MineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineTableViewCell.swift; sourceTree = "<group>"; };
+		1854919B1EA4B88200F4D667 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		185CCC721E9F142C00F3C7E4 /* ALLIN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALLIN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185CCC751E9F142C00F3C7E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		185CCC771E9F142C00F3C7E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,12 @@
 		185CCC7C1E9F142C00F3C7E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185CCC7F1E9F142C00F3C7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185CCC811E9F142C00F3C7E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185CCC881E9F155700F3C7E4 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		185CCC8B1E9F1FB600F3C7E4 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		185CCC8D1E9F1FDC00F3C7E4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		185CCC8F1E9F1FE800F3C7E4 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		610E27C60EE2E4AB0339B3A6 /* Pods-ALLIN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALLIN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALLIN/Pods-ALLIN.debug.xcconfig"; sourceTree = "<group>"; };
+		C288420981999197B9BEFC4D /* Pods-ALLIN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALLIN.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALLIN/Pods-ALLIN.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9E13D02F1336EB1BA67EAA /* Pods_ALLIN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182DCBBF1EA5A27100D71A34 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				182DCBC11EA5A2B800D71A34 /* View */,
+				182DCBC01EA5A2AC00D71A34 /* Controller */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		182DCBC01EA5A2AC00D71A34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185CCC8F1E9F1FE800F3C7E4 /* MineViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		182DCBC11EA5A2B800D71A34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				182DCBC21EA5A2DD00D71A34 /* MineTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		185491971EA4B54900F4D667 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1854919B1EA4B88200F4D667 /* Const.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		185CCC691E9F142C00F3C7E4 = {
 			isa = PBXGroup;
 			children = (
 				185CCC741E9F142C00F3C7E4 /* ALLIN */,
 				185CCC731E9F142C00F3C7E4 /* Products */,
+				733B56BF42730DA35046B5DF /* Pods */,
+				BEA46610E99B4374BAE4304B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +112,10 @@
 		185CCC741E9F142C00F3C7E4 /* ALLIN */ = {
 			isa = PBXGroup;
 			children = (
+				185491971EA4B54900F4D667 /* Tools */,
+				185CCC911E9F250300F3C7E4 /* Image */,
+				185CCC8A1E9F1F7200F3C7E4 /* Classes */,
+				185CCC871E9F14BA00F3C7E4 /* Main */,
 				185CCC751E9F142C00F3C7E4 /* AppDelegate.swift */,
 				185CCC771E9F142C00F3C7E4 /* ViewController.swift */,
 				185CCC791E9F142C00F3C7E4 /* Main.storyboard */,
@@ -64,6 +126,51 @@
 			path = ALLIN;
 			sourceTree = "<group>";
 		};
+		185CCC871E9F14BA00F3C7E4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				185CCC881E9F155700F3C7E4 /* TabBarViewController.swift */,
+				185CCC8B1E9F1FB600F3C7E4 /* BaseViewController.swift */,
+				181215D51EA0621A005DE9A3 /* MyNavigationViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		185CCC8A1E9F1F7200F3C7E4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				182DCBBF1EA5A27100D71A34 /* Mine */,
+				185CCC8D1E9F1FDC00F3C7E4 /* HomeViewController.swift */,
+				181215D71EA06C17005DE9A3 /* ProductViewController.swift */,
+				181215D91EA06C33005DE9A3 /* CategoryViewController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		185CCC911E9F250300F3C7E4 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		733B56BF42730DA35046B5DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				610E27C60EE2E4AB0339B3A6 /* Pods-ALLIN.debug.xcconfig */,
+				C288420981999197B9BEFC4D /* Pods-ALLIN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEA46610E99B4374BAE4304B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1026F77A087CFB4802827746 /* Pods_ALLIN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185CCC841E9F142C00F3C7E4 /* Build configuration list for PBXNativeTarget "ALLIN" */;
 			buildPhases = (
+				388A9C95EE610E5F8F667458 /* [CP] Check Pods Manifest.lock */,
 				185CCC6E1E9F142C00F3C7E4 /* Sources */,
 				185CCC6F1E9F142C00F3C7E4 /* Frameworks */,
 				185CCC701E9F142C00F3C7E4 /* Resources */,
+				E2C2E43DA179D2BD6B45E89D /* [CP] Embed Pods Frameworks */,
+				EFEC6867676EDEB730BFA3FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +241,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		388A9C95EE610E5F8F667458 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C2E43DA179D2BD6B45E89D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALLIN/Pods-ALLIN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFEC6867676EDEB730BFA3FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALLIN/Pods-ALLIN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		185CCC6E1E9F142C00F3C7E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185CCC8E1E9F1FDC00F3C7E4 /* HomeViewController.swift in Sources */,
 				185CCC781E9F142C00F3C7E4 /* ViewController.swift in Sources */,
+				185CCC8C1E9F1FB600F3C7E4 /* BaseViewController.swift in Sources */,
+				185CCC901E9F1FE800F3C7E4 /* MineViewController.swift in Sources */,
+				185CCC891E9F155700F3C7E4 /* TabBarViewController.swift in Sources */,
+				181215D61EA0621A005DE9A3 /* MyNavigationViewController.swift in Sources */,
+				181215D81EA06C17005DE9A3 /* ProductViewController.swift in Sources */,
+				181215DA1EA06C33005DE9A3 /* CategoryViewController.swift in Sources */,
+				182DCBC31EA5A2DD00D71A34 /* MineTableViewCell.swift in Sources */,
 				185CCC761E9F142C00F3C7E4 /* AppDelegate.swift in Sources */,
+				1854919C1EA4B88200F4D667 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +425,7 @@
 		};
 		185CCC851E9F142C00F3C7E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610E27C60EE2E4AB0339B3A6 /* Pods-ALLIN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ALLIN/Info.plist;
@@ -270,6 +438,7 @@
 		};
 		185CCC861E9F142C00F3C7E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C288420981999197B9BEFC4D /* Pods-ALLIN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ALLIN/Info.plist;
@@ -299,6 +468,7 @@
 				185CCC861E9F142C00F3C7E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
