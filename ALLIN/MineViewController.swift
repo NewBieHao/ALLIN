@@ -34,7 +34,7 @@ class MineViewController: BaseViewController , UITableViewDataSource, UITableVie
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+        return 60
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 0.0001
@@ -54,12 +54,12 @@ class MineViewController: BaseViewController , UITableViewDataSource, UITableVie
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         
         let identifier = "mycell"
-        let cell = UITableViewCell(style:UITableViewCellStyle.subtitle,reuseIdentifier:identifier)
-        cell.textLabel?.text="hello"
+        let cell = MineTableViewCell(style:UITableViewCellStyle.subtitle,reuseIdentifier:identifier)
         if(indexPath.row==0){
         
             cell.backgroundColor=UIColor.orange
         }
+        cell.titleLabel?.text="12334"
         
         return cell;
     }
